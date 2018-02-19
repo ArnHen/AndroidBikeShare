@@ -29,8 +29,8 @@ public class StartRideActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 if ((newWhat.getText().length()>0) && (newWhere.getText().length()>0 )){
-                    last.setMbikeName(newWhat.getText().toString().trim());
-                    last.setMstartRide(newWhere.getText().toString().trim());
+                    last.setBikeName(newWhat.getText().toString().trim());
+                    last.setStartRide(newWhere.getText().toString().trim());
 // reset text fields
                     newWhat.setText("");
                     newWhere.setText("");
